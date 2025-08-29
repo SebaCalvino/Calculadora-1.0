@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <script src="script.js"></script>
+    <div>
+        <input type="number" name="Numero1" id="Numero1">Ingresar
+        <input type="number" name="Numero2" id="Numero2">Ingresar
+        <select name="Eleccion" id="Eleccion">
+            <option value="+">Suma</option>
+            <option value="-">Resta</option>
+            <option value="*">Multiplicación</option>
+            <option value="/">División</option>
+        </select>
+        <div class="button-result-container">
+            <button id="Calcular" onclick="calcular()">=</button>
+            <div class="Result">
+                <p id="Resultado"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
